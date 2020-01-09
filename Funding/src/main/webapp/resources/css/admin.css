@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+h1 {
+	text-align: center;
+}
+
+
+
+.admin-content table {
+	min-width:1000px;
+	margin:200px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.memberList table td {
+	font-size: 15pt;
+	text-align:center;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.memberList table {
+	border-collapse: collapse;
+}
+
+
+.admin_project table {
+	margin:0 auto;
+	width:1000px;
+	
+	
+}
+.admin_project table td {
+	text-align: center;	
+	
+}
+
+
+
+

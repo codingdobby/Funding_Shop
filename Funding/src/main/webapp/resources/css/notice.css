@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Do Hyeon', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.notice_table table {
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.notice_table table td {
+	width: 20%;
+	min-width: 20%;
+	font-size: 15pt;
+}
+
+.notice_table a {
+	text-decoration: none;
+}
+
+.notice_table a:visited {
+	text-decoration: none;
+}
+
+.writeForm  table {
+	width: 80%;
+	height: 80%;
+}
+
+.writeForm table td first-child {
+	background-color: #FAE0D4;
+	width: 20%
+}
+
+.writeForm table textarea {
+	width: 90%;
+	height: 600px;
+	text-align: left;
+	font-size: 20pt;
+}
+
+.text-area {
+	height: 500px;
+	text-align: left;
+}
+
+.detailView table {
+	width: 1000px;;
+	margin: 0 auto;
+}
+
+.detailView table td first-child {
+	width: 200px;
+}
+
+input[type="text"] {
+	width: 90%;
+	text-align: left;
+}
+
+input[type="submit"] {
+	width: 1000px;
+	min-width: 1000px;
+	display: block;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 100%;
+	outline: none;
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+
+input[type="submit"]:hover, /*foucs는 탭으로 갔을때*/ input[type="submit"]:focus
+	{
+	border: 2px solid black;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13)
+}

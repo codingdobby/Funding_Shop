@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.container-3 {
+	width: 300px;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+}
+
+.container-3 input#search {
+	width: 300px;
+	height: 50px;
+	background: #c0c0c0;
+	border: none;
+	font-size: 10pt;
+	float: left;
+	color: #262626;
+	padding-left: 45px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	text-align: left;
+	font-size: 20pt;
+}
+
+.container-3 input#search::-webkit-input-placeholder {
+	color: #000000;
+	text-align: left;
+}
+
+.container-3 input#search:-moz-placeholder { /* Firefox 18- */
+	color: #65737e;
+}
+
+.container-3 input#search::-moz-placeholder { /* Firefox 19+ */
+	color: #65737e;
+}
+
+.container-3 input#search:-ms-input-placeholder {
+	color: #65737e;
+}
+
+.container-3 .icon {
+	position: absolute;
+	top: 50%;
+	margin-left: 80px;
+	margin-top: 7px;
+	z-index: 1;
+	color: #4f5b66;
+	-webkit-transition: all .55s ease;
+	-moz-transition: all .55s ease;
+	-ms-transition: all .55s ease;
+	-o-transition: all .55s ease;
+	transition: all .55s ease;
+}
+
+.container-3 input#search:focus, .container-3 input#search:active {
+	outline: none;
+}
+
+.container-3:hover .icon {
+	margin-top: 10px;
+	color: #93a2ad;
+	-webkit-transform: scale(1.5); /* Safari and Chrome */
+	-moz-transform: scale(1.5); /* Firefox */
+	-ms-transform: scale(1.5); /* IE 9 */
+	-o-transform: scale(1.5); /* Opera */
+	transform: scale(1.5);
+}
+
+.search_result img {
+	width: 400px;
+	height: auto;
+}
+
+.search_result table {
+	width: 1000px;
+	border-collapse: collapse;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+.search_result table th {
+	width: 400px;
+	height: auto;
+	min-width: 400px;
+}
+
+.search_result table td {
+	text-align: center;
+	font-size: 15pt;
+}
+
+.search_result a {
+	text-decoration: none;
+}

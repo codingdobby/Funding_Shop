@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.findPWD table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 60%;
+}
+
+.findPWD th {
+	font-size: 15pt;
+}
+
+.findPWD td {
+	font-family: font-family : 'Nanum Gothic', sans-serif;
+	font-size: 18pt;
+	text-align: center;
+}
+
+input[type="text"] {
+	text-align: left;
+	padding: 8px;
+	width: 100%;
+	box-sizing: border-box;
+}

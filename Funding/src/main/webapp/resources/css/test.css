@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+  input[type="password"] {
+	width: 100%;
+}
+
+ input[type="text"] {
+	width: 100%;
+}
+
+input[type="submit"] {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 100%;
+	outline: none;
+	color: #FFFFFF;
+}
+
+input[type="submit"]:hover, /*foucs는 탭으로 갔을때*/ input[type="submit"]:focus
+	{
+	border: 2px solid black;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13)
+}
+
+
+input[type="text"]{
+	
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 100%;
+	outline: none;
+	
+	
+	
+}
+
+input[type="text"]:hover, /*foucs는 탭으로 갔을때*/ input[type="submit"]:focus
+	{
+	border: 1px solid black;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13)
+}
+
+
+
+
+
+input[type="password"]{
+	
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 100%;
+	outline: none;
+	
+	
+	
+}
+input[type="password"]:hover, /*foucs는 탭으로 갔을때*/ input[type="submit"]:focus
+	{
+	border: 1px solid black;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13)
+}
+
+
+table {
+margin: 0 auto;
+
+}
+
+#test {
+	border-radius: 10px;
+	width: 40%;
+	height: 100%;
+	text-align: center;
+		
+}
+
+#test td {
+	padding: 30px;
+
+}

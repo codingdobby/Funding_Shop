@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+.mypage_content {
+	background-color: #EAEAEA;
+margin:0 auto;
+	width: 1000px;
+	margin-bottom: 20px;
+}
+
+.mypage_content table {
+	width: 1000px;
+		outline:none;
+	border-collapse: collapse;
+}
+
+.mypage_content table td {
+	padding: 15px;
+}
+
+
+.cart_table table{
+	margin: 0 auto;
+
+	width: 1000px;
+	min-width: 1000px;
+	border-collapse: collapse;
+	
+}
+.cart_table table td{
+text-align: center;
+width: 20%;	
+font-size: 15pt;
+}
+
+.cart_table table td a{
+text-decoration: none;
+}
+
+
+
+
+
+input[type="submit"] {
+	width: 1000px;
+	min-width:1000px;
+	display: block;
+	box-sizing: border-box;
+	background-color: #FF6F61;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 100%;
+	outline: none;
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+
+input[type="submit"]:hover, /*foucs는 탭으로 갔을때*/ input[type="submit"]:focus
+	{
+	border: 2px solid black;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13)
+}
+
+input[type="text"] {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 100%;
+	outline: none;
+}
+
+input[type="text"]:hover, /*foucs는 탭으로 갔을때*/ input[type="submit"]:focus
+	{
+	border: 1px solid black;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13)
+}
+
+input[type="password"] {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 100%;
+	outline: none;
+}
+
+input[type="password"]:hover, /*foucs는 탭으로 갔을때*/ input[type="submit"]:focus
+	{
+	border: 1px solid black;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .13)
+}
