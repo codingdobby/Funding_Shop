@@ -1,5 +1,5 @@
-# Funding_Shop
-Spring Framework로 제작한 펀딩샵 프로젝트 입니다.
+# Funding_Shop Ver 1.0 프로젝트
+
  
 ## 환경
 
