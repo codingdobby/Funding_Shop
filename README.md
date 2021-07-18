@@ -10,15 +10,16 @@
 - Spring Framework 5.1.2
 - MySQL 
 - Apache Tomcat 
-  
+
 # 📃관련 문서 
- 
+
+
+### SQL 
+![DB ERD](https://user-images.githubusercontent.com/56217725/126068878-1e9cc48c-d3cc-40d0-b7f6-07f050bbcccf.jpg)
+
 ### PPT(GIF)
 계획 보고서 ppt<br>
 [Funding_Project_사전보고서.pptx](https://github.com/codingdobby/Funding_Shop/files/6834339/Funding_Project_.pptx)
-
-완료 보고서 ppt<br>
-[Funding_Project_완료보고서.pptx](https://github.com/codingdobby/Funding_Shop/files/6834341/Funding_Project_.pptx)
 
 ### PDF
 
